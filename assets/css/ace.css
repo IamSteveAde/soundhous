@@ -716,3 +716,48 @@
     width: 95%;
   }
 }
+.zoggles-video-section {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.zoggles-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the whole section */
+}
+
+.zoggles-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 1rem 2rem;
+  max-width: 900px;
+  z-index: 2;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Makes text readable on video */
+}
+
+.zoggles-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.zoggles-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .zoggles-text h2 {
+    font-size: 1.8rem;
+  }
+  .zoggles-text p {
+    font-size: 1rem;
+  }
+}
