@@ -812,14 +812,14 @@
   font-weight: 600;
   letter-spacing: -0.5px;
   margin-bottom: 1.2rem;
-  font-family: "Inter", sans-serif;
+  
 }
 
 .silk-text {
   font-size: 1.05rem;
   line-height: 1.7;
   opacity: 0.85;
-  font-family: "Inter", sans-serif;
+ 
 }
 
 /* Responsive */
@@ -880,13 +880,13 @@
   font-weight: 600;
   letter-spacing: -0.4px;
   margin-bottom: 1.1rem;
-  font-family: "Inter", sans-serif;
+  
 }
 
 .whisper-text {
   font-size: 1.05rem;
   line-height: 1.7;
-  font-family: "Inter", sans-serif;
+ 
   opacity: 0.85;
 }
 
@@ -1005,14 +1005,14 @@
   font-weight: 600;
   margin-bottom: 1.2rem;
   letter-spacing: -0.4px;
-  font-family: "Inter", sans-serif;
+  
 }
 
 .emberfit-text {
   font-size: 1.05rem;
   line-height: 1.7;
   opacity: 0.85;
-  font-family: "Inter", sans-serif;
+  
 }
 
 /* Responsive */
@@ -1026,4 +1026,239 @@
   .emberfit-visual {
     width: 100%;
   }
+}
+.veilsoft-zone {
+  width: 100%;
+  padding: 6rem 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.veilsoft-row {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Text Left */
+.veilsoft-copy {
+  flex: 1;
+  color: #111;
+}
+
+.veilsoft-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.4px;
+  
+}
+
+.veilsoft-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  opacity: 0.85;
+ 
+}
+
+/* Video Right */
+.veilsoft-visual {
+  flex: 1.1;
+  display: flex;
+  justify-content: center;
+}
+
+.veilsoft-reel {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .veilsoft-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .veilsoft-copy,
+  .veilsoft-visual {
+    width: 100%;
+  }
+}
+.cloudhug-zone {
+  width: 100%;
+  padding: 6rem 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.cloudhug-row {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Video Left */
+.cloudhug-visual {
+  flex: 1.1;
+  display: flex;
+  justify-content: center;
+}
+
+.cloudhug-reel {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+/* Text Right */
+.cloudhug-copy {
+  flex: 1;
+  color: #111;
+}
+
+.cloudhug-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.4px;
+   
+}
+
+.cloudhug-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  opacity: 0.85;
+   
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .cloudhug-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cloudhug-copy,
+  .cloudhug-visual {
+    width: 100%;
+  }
+}
+.featherfade-zone {
+  width: 100%;
+  padding: 6rem 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.featherfade-row {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Text Left */
+.featherfade-copy {
+  flex: 1;
+  color: #111;
+}
+
+.featherfade-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.4px;
+   
+}
+
+.featherfade-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  opacity: 0.85;
+  
+}
+
+/* Video Right */
+.featherfade-visual {
+  flex: 1.1;
+  display: flex;
+  justify-content: center;
+}
+
+.featherfade-reel {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .featherfade-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .featherfade-copy,
+  .featherfade-visual {
+    width: 100%;
+  }
+}
+.interactive-wrapper-b22 {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.interactive-col-l88,
+.interactive-col-r91 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Equal-height videos + smaller size */
+.ic-video-box-v1 {
+  width: 100%;
+  height: 260px; /* Adjust this value to increase or reduce size */
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.ic-video-box-v1 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ic-text-box-t7 h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.ic-text-box-t7 p {
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1.1rem;
 }
