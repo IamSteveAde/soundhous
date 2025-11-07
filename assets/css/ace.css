@@ -746,6 +746,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 .zoggles-text p {
@@ -759,5 +760,145 @@
   }
   .zoggles-text p {
     font-size: 1rem;
+  }
+}
+
+/* Premium Layout */
+.velvet-sonic-wrapper {
+  width: 100%;
+  padding: 6rem 0;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.aura-carousel {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+/* Slide Base */
+.aura-frame {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.aura-frame--one .aura-visual--left img,
+.aura-frame--two .aura-visual--right img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+/* Image Containers */
+.aura-visual {
+  flex: 1.1;
+  display: flex;
+  justify-content: center;
+}
+
+.aura-copy {
+  flex: 1;
+  color: #111;
+}
+
+/* Typography */
+.lux-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.silk-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  opacity: 0.85;
+  font-family: "Inter", sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .aura-frame {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .aura-copy, .aura-visual {
+    width: 100%;
+  }
+}
+.crystal-clarity-wrap {
+  width: 100%;
+  padding: 6rem 0;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.echo-carousel {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+/* Slide Base */
+.echo-frame {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Images */
+.echo-visual {
+  flex: 1.1;
+  display: flex;
+  justify-content: center;
+}
+
+.echo-visual img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+/* Text */
+.echo-copy {
+  flex: 1;
+  color: #111;
+}
+
+.velvet-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  margin-bottom: 1.1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.whisper-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  font-family: "Inter", sans-serif;
+  opacity: 0.85;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .echo-frame {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .echo-copy,
+  .echo-visual {
+    width: 100%;
   }
 }
