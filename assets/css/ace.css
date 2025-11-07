@@ -919,7 +919,8 @@
   object-fit: cover;
 }
 .silkframe-zone {
-  width: 100%;
+  width: 60%;
+  height: 50vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
