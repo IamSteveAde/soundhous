@@ -902,3 +902,16 @@
     width: 100%;
   }
 }
+.voidstream-shell {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.voidstream-player {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
