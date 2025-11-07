@@ -173,19 +173,39 @@ document.addEventListener('DOMContentLoaded', () => {
   const specsBtn = document.querySelector('.specs-btn');
   const specsPopup = document.querySelector('.specs-popup');
   const closePopup = document.querySelector('.close-popup');
+  const bookBtn = document.querySelector('.book-btn');
 
-  specsBtn.addEventListener('click', () => {
-    specsPopup.classList.add('active');
-  });
+  // Open Popup
+  if (specsBtn) {
+    specsBtn.addEventListener('click', () => {
+      specsPopup.classList.add('active');
+    });
+  }
 
-  closePopup.addEventListener('click', () => {
-    specsPopup.classList.remove('active');
-  });
+  // Close Popup (X icon)
+  if (closePopup) {
+    closePopup.addEventListener('click', () => {
+      specsPopup.classList.remove('active');
+    });
+  }
 
-  // Optional: close on clicking outside
+  // Close when clicking outside popup
   window.addEventListener('click', (e) => {
     if (e.target === specsPopup) {
       specsPopup.classList.remove('active');
     }
   });
+
+  // Book a Listening Experience: Close popup + Smooth Scroll
+  if (bookBtn) {
+    bookBtn.addEventListener('click', (e) => {
+      e.preventDefault(); // Prevent default anchor jump
+      specsPopup.classList.remove('active'); // Close modal
+
+      const contactSection = document.querySelector('#contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  }
 });
